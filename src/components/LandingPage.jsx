@@ -23,7 +23,7 @@ function LandingPage() {
           <h1>NewsMate</h1>
         </div>
         <nav>
-          <button onClick={() => navigate('/Home')}>Home</button>
+          <button onClick={() => navigate('/home')}>Home</button>
           <button onClick={() => navigate('/login')}>Login</button>
           <button onClick={() => navigate('/register')}>Register</button>
         </nav>

@@ -13,9 +13,9 @@ function HomePage() {
         Stay updated with the latest news from around the world. Sign up or log in to personalize your news feed and never miss an important update!
       </p>
       <div style={{ display: 'flex', gap: '1rem' }}>
-        <button onClick={() => navigate('/landingpage')} style={{
+        <button onClick={() => navigate('/')} style={{
           background: '#e0e7ff', color: '#6366f1', padding: '0.75rem 1.5rem', borderRadius: '8px', textDecoration: 'none', fontWeight: 'bold', border: '2px solid #6366f1', boxShadow: '0 2px 8px rgba(99,102,241,0.05)'
-        }}>News Update</button>
+        }}>Home</button>
         <button onClick={() => navigate('/register')} style={{
           background: '#6366f1', color: '#fff', padding: '0.75rem 1.5rem', borderRadius: '8px', textDecoration: 'none', fontWeight: 'bold', boxShadow: '0 2px 8px rgba(99,102,241,0.1)'
         }}>Get Started</button>
