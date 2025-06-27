@@ -42,6 +42,17 @@ function LandingPage() {
           ))}
         </div>
       </section>
+      <footer style={{
+        textAlign: 'center',
+        padding: '1rem',
+        background: '#f1f5f9',
+        color: '#334155',
+        fontWeight: 'bold',
+        borderTop: '1px solid #e0e7ef',
+        marginTop: '2rem'
+      }}>
+        By G srisai
+      </footer>
     </div>
   );
 }
